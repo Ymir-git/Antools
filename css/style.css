@@ -234,3 +234,138 @@ body{
 .hero__social-link img:hover{
   background-color: rgba(255, 255, 255, 0.1);;
 }
+
+.tools__top{
+  margin-bottom: 90px;
+}
+
+.tools__title{
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tools__text{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.tools__list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 24px;
+}
+
+.tools__item{
+  max-width: 392px;
+  max-height: 294px;
+  border-radius: 15px;
+  padding: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  transition: 0.7s;
+}
+.tools__item:hover{
+  background-image: url(../images/tools__item-bg.png);
+  margin-top: 0;
+}
+
+.tools__item-title{
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tools__item-prise{
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tools__item-img{
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 31px;
+}
+
+.tool__item-text{
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.tools__item-buttons{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-basis: 326px;
+  gap: 0 12px
+}
+
+.heart-icon{
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.heart-icon:hover,
+.folder-icon:hover{
+  background-color: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+}
+
+.heart-filled{
+  fill: red;
+  fill-opacity: 1;
+}
+
+.folder-icon{
+  padding: 7px 6px 5px;
+  border-radius: 8px;
+  margin-right: auto;
+  cursor: pointer;
+}
+.folder-filled{
+  fill:#FF6E30;
+  fill-opacity: 1;
+}
+
+.visit-link{
+  font-weight: 600;
+  padding: 9px 35px;
+  border-radius: 8px;
+  line-height: normal;
+  transition: 0.5s;
+}
+
+.visit-link:hover{
+  color: #FFFFFF;
+  background-color: #FF6E30;
+}
+
+.button-more{
+  font-size: 20px;
+  line-height: normal;
+  color: #FF6E30;
+  padding: 17px 38px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 8px;
+  margin: 100px auto;
+  display: block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button-more:hover{
+  color: #FFFFFF;
+  background-color: #FF6E30;
+}
