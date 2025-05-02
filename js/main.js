@@ -1,5 +1,12 @@
-// document.querySelector ('.heart-icon')
-// .addEventListener ('click',function () { var path = this.querySelector ('path');
-//   path.classList.toggle ('heart-filled');
-  
-// })
+const swiper = new Swiper('.swiper-content', {
+  spaceBetween:2000,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
